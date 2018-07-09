@@ -1,0 +1,3106 @@
+Started GET "/" for 127.0.0.1 at 2018-07-06 11:48:59 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 3574ms (Views: 3178.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 13:52:11 -0400
+
+SyntaxError - syntax error, unexpected ':', expecting keyword_end
+  helper_method: current_user, logged_in?
+                ^
+/Users/appacademy/Desktop/W7D5/bench_bnb/app/controllers/application_controller.rb:4: syntax error, unexpected '\n', expecting &. or :: or '[' or '.':
+  app/controllers/application_controller.rb:4:in `'
+  app/controllers/static_pages_controller.rb:1:in `<top (required)>'
+
+Started POST "/__better_errors/99bb10308b5ff283/variables" for 127.0.0.1 at 2018-07-06 13:52:12 -0400
+Started GET "/" for 127.0.0.1 at 2018-07-06 13:52:36 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 122ms (Views: 121.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-07-06 13:57:21 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/users"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/users" for 127.0.0.1 at 2018-07-06 13:57:33 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/users"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/api/users" for 127.0.0.1 at 2018-07-06 14:00:06 -0400
+Processing by Api::UsersController#create as JSON
+  Parameters: {"username"=>"Andrew", "password"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 141ms
+
+
+
+LoadError - Unable to autoload constant Api::User, expected /Users/appacademy/Desktop/W7D5/bench_bnb/app/models/api/user.rb to define it:
+  app/controllers/api/users_controller.rb:5:in `create'
+
+Started POST "/api/users" for 127.0.0.1 at 2018-07-06 14:00:54 -0400
+Processing by Api::UsersController#create as JSON
+  Parameters: {"username"=>"Andrew", "password"=>"[FILTERED]"}
+Completed 400 Bad Request in 61203ms
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: user:
+  app/controllers/api/users_controller.rb:17:in `user_params'
+  app/controllers/api/users_controller.rb:6:in `create'
+
+Started POST "/api/users" for 127.0.0.1 at 2018-07-06 14:03:09 -0400
+Processing by Api::UsersController#create as JSON
+  Parameters: {"username"=>"Andrew", "password"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 555ms
+
+
+
+LoadError - Unable to autoload constant Api::User, expected /Users/appacademy/Desktop/W7D5/bench_bnb/app/models/api/user.rb to define it:
+  app/controllers/api/users_controller.rb:6:in `create'
+
+Started POST "/api/users" for 127.0.0.1 at 2018-07-06 14:05:34 -0400
+Processing by Api::UsersController#create as JSON
+  Parameters: {"username"=>"Andrew", "password"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: user:
+  app/controllers/api/users_controller.rb:17:in `user_params'
+  app/controllers/api/users_controller.rb:6:in `create'
+
+Started POST "/api/users" for 127.0.0.1 at 2018-07-06 14:07:50 -0400
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 88ms
+
+
+
+PG::ConnectionBad - FATAL:  database "bench_bnb_development" does not exist
+:
+  app/controllers/api/users_controller.rb:6:in `create'
+
+Started POST "/api/users" for 127.0.0.1 at 2018-07-06 14:08:34 -0400
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 6ms
+
+
+
+PG::ConnectionBad - FATAL:  database "bench_bnb_development" does not exist
+:
+  app/controllers/api/users_controller.rb:6:in `create'
+
+Started POST "/api/users" for 127.0.0.1 at 2018-07-06 14:10:33 -0400
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 36.8ms)
+
+
+
+PG::UndefinedTable - ERROR:  relation "users" does not exist
+LINE 8:                WHERE a.attrelid = '"users"'::regclass
+                                          ^
+:
+  app/controllers/api/users_controller.rb:6:in `create'
+
+  [1m[35m (279.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (23.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6802361601607853190)[0m
+  [1m[35m (21.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20180706181127)
+  [1m[35m (12.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (40.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "username" character varying NOT NULL, "password_digest" character varying NOT NULL, "session_token" character varying NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (55.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180706181127"]]
+  [1m[35m (10.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (13.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-07-06 18:12:24.370172"], ["updated_at", "2018-07-06 18:12:24.370172"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(6802361601607853190)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/api/users" for 127.0.0.1 at 2018-07-06 14:12:31 -0400
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Andrew"], ["password_digest", "$2a$10$4kQP9Yv8P2XCtQ2tLSEmmepdGw/Flgjjg0Rg0hd5T/5gSvi0je23G"], ["session_token", "6P-oYrvWYsxG57yx09Pi2A"], ["created_at", "2018-07-06 18:12:32.150496"], ["updated_at", "2018-07-06 18:12:32.150496"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "Oqp7e03f85FqZ4rOlQJeww"], ["updated_at", "2018-07-06 18:12:32.156674"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (27.1ms)
+Completed 200 OK in 183ms (Views: 70.7ms | ActiveRecord: 10.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 14:22:35 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (24.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "lGldZa_Z8NYWezzMgWtbGA"], ["updated_at", "2018-07-06 18:22:35.277323"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 142ms (ActiveRecord: 26.2ms)
+
+
+
+NoMethodError - undefined method `empty?' for nil:NilClass:
+  app/controllers/api/sessions_controller.rb:10:in `create'
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 14:26:08 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "GfB4uKx2nH7wTvbKAeD4HQ"], ["updated_at", "2018-07-06 18:26:08.607814"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 328ms (ActiveRecord: 2.0ms)
+
+
+
+NameError - undefined local variable or method `user_url' for #<Api::SessionsController:0x007f9889b51138>:
+  app/controllers/api/sessions_controller.rb:10:in `create'
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 14:26:37 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "p0WsddBIXgqpYP27hrN09A"], ["updated_at", "2018-07-06 18:26:37.253086"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 81ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 14:26:37 -0400
+Processing by StaticPagesController#root as */*
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 3274ms (Views: 3273.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 14:26:58 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 78ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 14:27:27 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "a6-zpNunQKjdVANvojgoHw"], ["updated_at", "2018-07-06 18:27:27.618235"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 82ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 14:27:27 -0400
+Processing by StaticPagesController#root as */*
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/api/session" for 127.0.0.1 at 2018-07-06 14:28:37 -0400
+Processing by Api::SessionsController#destroy as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "a6-zpNunQKjdVANvojgoHw"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 137ms (ActiveRecord: 0.4ms)
+
+
+
+NoMethodError - undefined method `log_out!' for #<Api::SessionsController:0x007f988d67b3d0>
+Did you mean?  log_out:
+  app/controllers/api/sessions_controller.rb:18:in `destroy'
+
+Started DELETE "/api/session" for 127.0.0.1 at 2018-07-06 14:29:05 -0400
+Processing by Api::SessionsController#destroy as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "a6-zpNunQKjdVANvojgoHw"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "vUn6V7fYN4jwd6qiSFKbeQ"], ["updated_at", "2018-07-06 18:29:05.480902"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 14:33:49 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 563ms (Views: 562.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2018-07-06 14:34:22 -0400
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"username"=>"monte", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "monte"], ["password_digest", "$2a$10$CGtPQOzF68rI4wuxcddzU.sP8KyQ3AhuKFyqe5CXaGSCURSKG4Wzm"], ["session_token", "RKBxZi3_UrI1BKtrPbnMvw"], ["created_at", "2018-07-06 18:34:22.290529"], ["updated_at", "2018-07-06 18:34:22.290529"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "B-XHe5ItmLGpei7kDYSvyA"], ["updated_at", "2018-07-06 18:34:22.294575"], ["id", 2]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.7ms)
+Completed 200 OK in 111ms (Views: 25.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 15:13:41 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 961ms (Views: 959.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 15:14:22 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1075ms (Views: 1074.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 15:21:10 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1102ms (Views: 1102.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 15:23:40 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 943ms (Views: 942.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 15:24:41 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 996ms (Views: 995.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 15:25:07 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1132ms (Views: 1131.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 15:37:01 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1064ms (Views: 1063.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 15:38:15 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 983ms (Views: 982.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 15:39:26 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>{"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}}}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+
+TypeError - can't cast ActionController::Parameters:
+  app/models/api/user.rb:9:in `find_by_credentials'
+  app/controllers/api/sessions_controller.rb:4:in `create'
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 15:40:25 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 989ms (Views: 988.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 15:41:27 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1199ms (Views: 1199.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 15:42:20 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1105ms (Views: 1104.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 15:45:19 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1168ms (Views: 1167.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 15:45:20 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 16:07:56 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 499ms (Views: 498.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 16:09:26 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 963ms (Views: 962.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 16:09:33 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>{"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}}}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+
+TypeError - can't cast ActionController::Parameters:
+  app/models/api/user.rb:9:in `find_by_credentials'
+  app/controllers/api/sessions_controller.rb:4:in `create'
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 16:10:49 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1038ms (Views: 1037.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 16:10:55 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>{"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+
+TypeError - can't cast ActionController::Parameters:
+  app/models/api/user.rb:9:in `find_by_credentials'
+  app/controllers/api/sessions_controller.rb:4:in `create'
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 16:19:33 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew"}}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 87ms (Views: 0.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 16:20:30 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1043ms (Views: 1042.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 16:20:37 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 244371ms (Views: 0.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 16:25:05 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1015ms (Views: 1014.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 16:25:17 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (12.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 16ms (Views: 0.4ms | ActiveRecord: 12.2ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 16:25:43 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "9y4DVigMidYrs1mtdhhC9w"], ["updated_at", "2018-07-06 20:25:43.455152"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 83ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 16:25:43 -0400
+Processing by StaticPagesController#root as */*
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 78ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 16:29:10 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 110ms (Views: 109.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 16:29:16 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "8RmV2SACvWLLmJEBRXtUoA"], ["updated_at", "2018-07-06 20:29:16.296688"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 119ms (ActiveRecord: 1.9ms)
+
+
+
+ActionView::MissingTemplate - Missing template users/show with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/appacademy/Desktop/W7D5/bench_bnb/app/views"
+:
+  app/controllers/api/sessions_controller.rb:10:in `create'
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 16:29:52 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 210ms (Views: 209.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 16:29:56 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "Iw15O2zqzL2MiagzaXiUPQ"], ["updated_at", "2018-07-06 20:29:56.259830"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.6ms)
+Completed 200 OK in 88ms (Views: 8.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 16:32:14 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 776ms (Views: 776.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 16:32:39 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 698ms (Views: 697.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 16:33:13 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1021ms (Views: 1020.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 16:33:36 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 964ms (Views: 964.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 16:33:58 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "uOvnsFNHAihzJsVPvtWxfw"], ["updated_at", "2018-07-06 20:33:58.868649"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.7ms)
+Completed 200 OK in 93ms (Views: 7.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:02:05 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 1527ms (Views: 1521.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:03:07 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1079ms (Views: 1078.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:06:33 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1157ms (Views: 1156.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:07:05 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 300ms (Views: 299.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:07:08 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1089ms (Views: 1089.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:07:12 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:07:31 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:07:50 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:08:26 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1544ms (Views: 1543.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:09:07 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1115ms (Views: 1114.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:09:29 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:09:32 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1121ms (Views: 1120.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:12:35 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1266ms (Views: 1265.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:14:53 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1297ms (Views: 1296.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:15:14 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1160ms (Views: 1159.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:15:45 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1444ms (Views: 1443.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:16:33 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1246ms (Views: 1245.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:18:26 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1126ms (Views: 1125.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:18:35 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1165ms (Views: 1165.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:18:42 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1002ms (Views: 1001.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:19:43 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1100ms (Views: 1099.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:20:26 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1313ms (Views: 1311.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:20:46 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1057ms (Views: 1056.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:21:57 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1243ms (Views: 1243.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:22:32 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1351ms (Views: 1350.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:22:53 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1063ms (Views: 1062.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:24:25 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1303ms (Views: 1301.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 17:24:29 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "_Yb4XOrVQ5KDRspxsQJ_VQ"], ["updated_at", "2018-07-06 21:24:29.474028"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.9ms)
+Completed 200 OK in 99ms (Views: 9.9ms | ActiveRecord: 2.8ms)
+
+
+Started DELETE "/api/session" for 127.0.0.1 at 2018-07-06 17:24:57 -0400
+Processing by Api::SessionsController#destroy as JSON
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "_Yb4XOrVQ5KDRspxsQJ_VQ"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "o17C1mLJKVOdFpXiD6aqCQ"], ["updated_at", "2018-07-06 21:24:57.586203"], ["id", 1]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 2.4ms)
+
+
+Started DELETE "/api/session" for 127.0.0.1 at 2018-07-06 17:25:00 -0400
+Processing by Api::SessionsController#destroy as JSON
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 404 Not Found in 5ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/api/session" for 127.0.0.1 at 2018-07-06 17:25:18 -0400
+Processing by Api::SessionsController#destroy as JSON
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 404 Not Found in 4ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:25:36 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1160ms (Views: 1159.4ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/api/session" for 127.0.0.1 at 2018-07-06 17:25:43 -0400
+Processing by Api::SessionsController#destroy as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 404 Not Found in 3ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 17:25:51 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "ym6u_oPrJs2DDLZsgTTqCA"], ["updated_at", "2018-07-06 21:25:51.517969"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.8ms)
+Completed 200 OK in 89ms (Views: 8.0ms | ActiveRecord: 1.4ms)
+
+
+Started DELETE "/api/session" for 127.0.0.1 at 2018-07-06 17:26:00 -0400
+Processing by Api::SessionsController#destroy as JSON
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "ym6u_oPrJs2DDLZsgTTqCA"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "aUqozgC10PSh4-CSFy0k2A"], ["updated_at", "2018-07-06 21:26:00.969908"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:26:29 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 981ms (Views: 980.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:27:35 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1460ms (Views: 1457.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 17:27:41 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "VdBICMiLjTiSebqXQO3nng"], ["updated_at", "2018-07-06 21:27:41.266469"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.9ms)
+Completed 200 OK in 97ms (Views: 10.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:29:30 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 262ms (Views: 261.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 17:29:34 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "XRnZwhoHulCSMhC9Ig5-Ng"], ["updated_at", "2018-07-06 21:29:34.393641"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.8ms)
+Completed 200 OK in 90ms (Views: 7.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:29:54 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1280ms (Views: 1279.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:30:16 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 17:30:20 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "QoG7ApKkfQK8oHU5VNB6cA"], ["updated_at", "2018-07-06 21:30:20.672744"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.6ms)
+Completed 200 OK in 92ms (Views: 8.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:30:57 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1389ms (Views: 1388.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 17:31:01 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "4vxFwoVWsiDvS1EeDFNC7w"], ["updated_at", "2018-07-06 21:31:01.396249"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.7ms)
+Completed 200 OK in 94ms (Views: 8.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:31:54 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 123ms (Views: 123.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 17:31:57 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "iGAAlTRgxKfxk1ZMnaZXRg"], ["updated_at", "2018-07-06 21:31:57.987753"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (1.3ms)
+Completed 200 OK in 88ms (Views: 8.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:34:13 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 123ms (Views: 122.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 17:34:25 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "V7_7YVdSv90iXjubyaJAEg"], ["updated_at", "2018-07-06 21:34:25.864384"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.6ms)
+Completed 200 OK in 90ms (Views: 8.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:35:10 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1481ms (Views: 1480.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 17:35:15 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "ux1szXpgWpnqlMu3g5KsUw"], ["updated_at", "2018-07-06 21:35:15.927101"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.6ms)
+Completed 200 OK in 92ms (Views: 8.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:35:31 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1363ms (Views: 1363.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 17:35:36 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "4WgqLerNzTLqYc45P5lmuA"], ["updated_at", "2018-07-06 21:35:36.462326"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.5ms)
+Completed 200 OK in 91ms (Views: 8.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:35:52 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 17:35:55 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "hmcoq12Itcv4UYmQb3mZyg"], ["updated_at", "2018-07-06 21:35:55.521065"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.6ms)
+Completed 200 OK in 86ms (Views: 8.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:36:56 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 231ms (Views: 230.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 17:37:01 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "ry5PaaukBqvjKr_KUUSFFQ"], ["updated_at", "2018-07-06 21:37:01.252111"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.6ms)
+Completed 200 OK in 91ms (Views: 9.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:37:53 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1123ms (Views: 1122.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 17:37:57 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "ZMrnqrIwMharrmV_xzDbUA"], ["updated_at", "2018-07-06 21:37:57.795771"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.5ms)
+Completed 200 OK in 88ms (Views: 8.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:39:06 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1157ms (Views: 1157.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 17:39:13 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "XuoFCVsyp0mq9nfnmFdrIg"], ["updated_at", "2018-07-06 21:39:13.100371"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.9ms)
+Completed 200 OK in 92ms (Views: 8.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-06 17:41:21 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1236ms (Views: 1236.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-06 17:41:27 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"Andrew", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Andrew"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "Lh8fW5xT-MvCwbMr_JPMng"], ["updated_at", "2018-07-06 21:41:27.580184"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.7ms)
+Completed 200 OK in 97ms (Views: 10.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 09:38:29 -0400
+
+PG::ConnectionBad - FATAL:  database "bench_bnb_development" does not exist
+:
+
+Started POST "/__better_errors/3e10a8461b4901a1/variables" for 127.0.0.1 at 2018-07-09 09:38:31 -0400
+  [1m[35mSQL (0.5ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (9.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "username" character varying NOT NULL, "password_digest" character varying NOT NULL, "session_token" character varying NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (4.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20180706181127)[0m
+  [1m[35m (4.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-07-09 13:39:08.575837"], ["updated_at", "2018-07-09 13:39:08.575837"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (9.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "username" character varying NOT NULL, "password_digest" character varying NOT NULL, "session_token" character varying NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20180706181127)[0m
+  [1m[35m (3.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-07-09 13:39:08.673680"], ["updated_at", "2018-07-09 13:39:08.673680"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (15.9ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2018-07-09 13:39:08.678879"], ["key", "environment"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2018-07-09 09:39:11 -0400
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 2833ms (Views: 2832.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2018-07-09 09:42:38 -0400
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>"monte"}
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `permit' for "monte":String
+Did you mean?  print:
+  app/controllers/api/users_controller.rb:17:in `user_params'
+  app/controllers/api/users_controller.rb:6:in `create'
+
+Started POST "/api/users" for 127.0.0.1 at 2018-07-09 09:44:04 -0400
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"username"=>"monte", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (7.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "monte"], ["password_digest", "$2a$10$sYk3BQAB2W6R4WrApwBM9O2/ko7HgCwaLG2MdwJxQq.08jFqd7GKG"], ["session_token", "I_KXVQlzEBy_YhID2Kv_gw"], ["created_at", "2018-07-09 13:44:04.376274"], ["updated_at", "2018-07-09 13:44:04.376274"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "tPMavISEwv4XcrJxC4FdDg"], ["updated_at", "2018-07-09 13:44:04.388165"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (18.1ms)
+Completed 200 OK in 220ms (Views: 41.7ms | ActiveRecord: 59.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 09:44:51 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1173ms (Views: 1172.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-09 09:46:15 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"monte", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "monte"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "4bVcuIgZYxTRoR-bDQmQ1A"], ["updated_at", "2018-07-09 13:46:15.953400"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.5ms)
+Completed 200 OK in 134ms (Views: 10.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:19:20 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1020ms (Views: 1019.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:20:54 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 915ms (Views: 915.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:21:58 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 930ms (Views: 929.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:22:36 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1051ms (Views: 1051.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:23:03 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 972ms (Views: 971.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:23:41 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:23:54 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 851ms (Views: 850.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:24:54 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 921ms (Views: 920.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:25:44 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 930ms (Views: 929.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:27:04 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1008ms (Views: 1007.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:28:06 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 899ms (Views: 899.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:28:48 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 852ms (Views: 851.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:32:25 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1041ms (Views: 1040.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:35:16 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 986ms (Views: 985.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:36:34 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 974ms (Views: 974.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:37:45 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 861ms (Views: 860.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:38:23 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 867ms (Views: 866.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:39:41 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 960ms (Views: 960.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:39:59 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 150ms (Views: 149.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:43:15 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1134ms (Views: 1133.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:44:31 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1252ms (Views: 1251.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:44:57 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 91ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:46:36 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 876ms (Views: 875.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:48:34 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 101ms (Views: 100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:50:56 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1057ms (Views: 1056.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:51:14 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 114.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:51:18 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 43ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:51:22 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 56ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-09 10:51:30 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"monte", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "monte"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "S9vuSfk955W1h6L2Bl24zQ"], ["updated_at", "2018-07-09 14:51:30.764807"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.6ms)
+Completed 200 OK in 114ms (Views: 27.8ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-09 10:53:01 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"monte", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "monte"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "74vilKEEdpSRDj1VJYr_0g"], ["updated_at", "2018-07-09 14:53:01.172611"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (1.2ms)
+Completed 200 OK in 92ms (Views: 10.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:53:16 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1336ms (Views: 1335.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:53:53 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 946ms (Views: 946.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-09 10:54:39 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"monte", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "monte"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "nVcsFQ8fL16OzSc7uq7X1w"], ["updated_at", "2018-07-09 14:54:39.228534"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.5ms)
+Completed 200 OK in 135ms (Views: 52.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 10:56:46 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1201ms (Views: 1200.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-09 10:57:09 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"monte", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "monte"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "VkXWTM9kHeqxAKYL-AtZVQ"], ["updated_at", "2018-07-09 14:57:09.734515"], ["id", 1]]
+  [1m[35m (21.4ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.8ms)
+Completed 200 OK in 159ms (Views: 56.6ms | ActiveRecord: 22.7ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-09 10:59:07 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"monte", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "monte"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "BFwb1dTx-lgtcDVhJb3LVw"], ["updated_at", "2018-07-09 14:59:07.359850"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.5ms)
+Completed 200 OK in 90ms (Views: 10.3ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2018-07-09 10:59:31 -0400
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"username"=>"alan", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "alan"], ["password_digest", "$2a$10$fXs4ujzN/qoi101gDdLMO.fvfoKOF6TVE4xXTje9fQlEVD24zRYd6"], ["session_token", "x0W6p8IsWIkkUxRpugYUcw"], ["created_at", "2018-07-09 14:59:31.278892"], ["updated_at", "2018-07-09 14:59:31.278892"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "6YMh55cNdHbwuHP-lu0tQw"], ["updated_at", "2018-07-09 14:59:31.282603"], ["id", 2]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.7ms)
+Completed 200 OK in 96ms (Views: 9.8ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:06:29 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "6YMh55cNdHbwuHP-lu0tQw"], ["LIMIT", 1]]
+  Rendered static_pages/root.html.erb within layouts/application (67.7ms)
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 0.5ms)
+
+
+
+ActionView::MissingTemplate - Missing partial ../api/users/_user.json.jbuilder with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/appacademy/Desktop/aA-dayswork-master/W7/WRK_W7D5/bench_bnb/app/views"
+:
+  app/views/static_pages/root.html.erb:6:in `_app_views_static_pages_root_html_erb___779267847842042315_70164344851460'
+  app/controllers/static_pages_controller.rb:4:in `root'
+
+Started POST "/__better_errors/33904eba24643630/variables" for 127.0.0.1 at 2018-07-09 11:06:29 -0400
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:06:48 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "6YMh55cNdHbwuHP-lu0tQw"], ["LIMIT", 1]]
+  Rendered static_pages/root.html.erb within layouts/application (9.2ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.4ms)
+
+
+
+ActionView::MissingTemplate - Missing partial ../api/users/__user.json.jbuilder with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/appacademy/Desktop/aA-dayswork-master/W7/WRK_W7D5/bench_bnb/app/views"
+:
+  app/views/static_pages/root.html.erb:6:in `_app_views_static_pages_root_html_erb___779267847842042315_70164285325220'
+  app/controllers/static_pages_controller.rb:4:in `root'
+
+Started POST "/__better_errors/017520f61aed0600/variables" for 127.0.0.1 at 2018-07-09 11:06:48 -0400
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:07:26 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "6YMh55cNdHbwuHP-lu0tQw"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (5.7ms)
+  Rendered static_pages/root.html.erb within layouts/application (83.7ms)
+Completed 500 Internal Server Error in 92ms (ActiveRecord: 0.5ms)
+
+
+
+NoMethodError - undefined method `id' for nil:NilClass:
+  app/views/api/users/_user.json.jbuilder:1:in `_app_views_api_users__user_json_jbuilder__2075085025528443063_70164271115000'
+  app/views/static_pages/root.html.erb:6:in `_app_views_static_pages_root_html_erb___779267847842042315_70164285338980'
+  app/controllers/static_pages_controller.rb:4:in `root'
+
+Started POST "/__better_errors/999accc719234b06/variables" for 127.0.0.1 at 2018-07-09 11:07:27 -0400
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:09:10 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "6YMh55cNdHbwuHP-lu0tQw"], ["LIMIT", 1]]
+  Rendered static_pages/root.html.erb within layouts/application (10.7ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.6ms)
+
+
+
+ActionView::MissingTemplate - Missing partial api/users/_show.json.jbuilder with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/appacademy/Desktop/aA-dayswork-master/W7/WRK_W7D5/bench_bnb/app/views"
+:
+  app/views/static_pages/root.html.erb:6:in `_app_views_static_pages_root_html_erb___779267847842042315_70164336820360'
+  app/controllers/static_pages_controller.rb:4:in `root'
+
+Started POST "/__better_errors/8984ac19b9588528/variables" for 127.0.0.1 at 2018-07-09 11:09:11 -0400
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:09:36 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "6YMh55cNdHbwuHP-lu0tQw"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.7ms)
+  Rendered static_pages/root.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 1231ms (Views: 1230.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-09 11:10:09 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"monte", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "monte"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "3ji6EMzX12Mmc_39FEpSzQ"], ["updated_at", "2018-07-09 15:10:09.406104"], ["id", 1]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.5ms)
+Completed 200 OK in 92ms (Views: 10.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:10:15 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "3ji6EMzX12Mmc_39FEpSzQ"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:11:30 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "3ji6EMzX12Mmc_39FEpSzQ"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (4.7ms)
+  Rendered static_pages/root.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.3ms)
+
+
+
+NoMethodError - undefined method `id' for nil:NilClass:
+  app/views/api/users/_user.json.jbuilder:1:in `_app_views_api_users__user_json_jbuilder__2075085025528443063_70164340152160'
+  app/views/static_pages/root.html.erb:6:in `_app_views_static_pages_root_html_erb___779267847842042315_70164286721940'
+  app/controllers/static_pages_controller.rb:4:in `root'
+
+Started POST "/__better_errors/4d4d21b91355f5c2/variables" for 127.0.0.1 at 2018-07-09 11:11:30 -0400
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:12:02 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "3ji6EMzX12Mmc_39FEpSzQ"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (6.4ms)
+  Rendered static_pages/root.html.erb within layouts/application (12.9ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.3ms)
+
+
+
+NoMethodError - undefined method `id' for nil:NilClass:
+  app/views/api/users/_user.json.jbuilder:1:in `_app_views_api_users__user_json_jbuilder__2075085025528443063_70164341148940'
+  app/views/static_pages/root.html.erb:6:in `_app_views_static_pages_root_html_erb___779267847842042315_70164336150700'
+  app/controllers/static_pages_controller.rb:4:in `root'
+
+Started POST "/__better_errors/212d6c22066288c6/variables" for 127.0.0.1 at 2018-07-09 11:12:28 -0400
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:16:01 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "3ji6EMzX12Mmc_39FEpSzQ"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.5ms)
+  Rendered static_pages/root.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 150ms (Views: 149.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-09 11:17:14 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"monte", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "monte"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "kI3scYKAApj42oMycBUwQQ"], ["updated_at", "2018-07-09 15:17:14.762044"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.6ms)
+Completed 200 OK in 108ms (Views: 23.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:17:19 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "kI3scYKAApj42oMycBUwQQ"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 191ms (Views: 190.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:18:43 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "kI3scYKAApj42oMycBUwQQ"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.5ms)
+  Rendered static_pages/root.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 1219ms (Views: 1218.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:19:10 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "kI3scYKAApj42oMycBUwQQ"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 144ms (Views: 143.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-09 11:19:18 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"monte", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "monte"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "v1N62HN_YXXlzVTGRDtHHg"], ["updated_at", "2018-07-09 15:19:18.984786"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.5ms)
+Completed 200 OK in 146ms (Views: 63.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:19:20 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "v1N62HN_YXXlzVTGRDtHHg"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 28ms (Views: 27.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:28:36 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "v1N62HN_YXXlzVTGRDtHHg"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.7ms)
+  Rendered static_pages/root.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 1220ms (Views: 1219.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:28:50 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "v1N62HN_YXXlzVTGRDtHHg"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.7ms)
+  Rendered static_pages/root.html.erb within layouts/application (32.9ms)
+Completed 200 OK in 1345ms (Views: 1344.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:31:38 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "v1N62HN_YXXlzVTGRDtHHg"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.0ms)
+  Rendered static_pages/root.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 89ms (Views: 88.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-09 11:31:58 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"monte", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "monte"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "eUkAK-MAGc3NEAU_WDRQ7Q"], ["updated_at", "2018-07-09 15:31:58.274774"], ["id", 1]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.5ms)
+Completed 200 OK in 160ms (Views: 74.4ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-09 11:37:05 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+
+ActiveRecord::PendingMigrationError - Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+:
+
+  [1m[35m (27.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6802361601607853190)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateBenches (20180709153445)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (179.7ms)[0m  [1m[35mCREATE TABLE "benches" ("id" bigserial primary key, "description" character varying NOT NULL, "lat" float NOT NULL, "lng" float NOT NULL)[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180709153445"]]
+  [1m[35m (155.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(6802361601607853190)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/api/session" for 127.0.0.1 at 2018-07-09 11:38:01 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"monte", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "monte"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "H2pI1zBco9zqZRb9-sLdrw"], ["updated_at", "2018-07-09 15:38:02.155703"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.7ms)
+Completed 200 OK in 136ms (Views: 32.1ms | ActiveRecord: 9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 11:58:38 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "H2pI1zBco9zqZRb9-sLdrw"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (2.0ms)
+  Rendered static_pages/root.html.erb within layouts/application (67.3ms)
+Completed 200 OK in 205ms (Views: 193.1ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 11:59:05 -0400
+
+NameError - uninitialized constant Api::BenchesController:
+
+  [1m[35m (16.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 2]]
+  [1m[35m (24.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mBench Load (17.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "monte"], ["password_digest", "$2a$10$oDBVGh6Qr8/fv7Zr0Xb4TeexwFmoaIfmg1B7sGEv0Yl2/1FaStgGu"], ["session_token", "4X8hbdw2FMeMaEBBSLOhKw"], ["created_at", "2018-07-09 16:00:41.712782"], ["updated_at", "2018-07-09 16:00:41.712782"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "alan"], ["password_digest", "$2a$10$NsQvLyIrCtGQ6BySel53l.QPj3JrwU9b3nhGz6YHBquoRQmiKH.tC"], ["session_token", "-XLY4ddU7BKoxIKczUBnKQ"], ["created_at", "2018-07-09 16:00:41.792345"], ["updated_at", "2018-07-09 16:00:41.792345"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (18.5ms)[0m  [1m[32mINSERT INTO "benches" ("description", "lat", "lng") VALUES ($1, $2, $3) RETURNING "id"[0m  [["description", "first bench"], ["lat", 40.76501], ["lng", -73.95847]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "benches" ("description", "lat", "lng") VALUES ($1, $2, $3) RETURNING "id"[0m  [["description", "first bench"], ["lat", 40.766694], ["lng", -73.972246]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 127.0.0.1 at 2018-07-09 12:00:46 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "H2pI1zBco9zqZRb9-sLdrw"], ["LIMIT", 1]]
+  Rendered static_pages/root.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 138ms (Views: 135.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 12:00:49 -0400
+
+LoadError - Unable to autoload constant Api::BenchesController, expected /Users/appacademy/Desktop/aA-dayswork-master/W7/WRK_W7D5/bench_bnb/app/controllers/api/benches_controller.rb to define it:
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 12:01:26 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "H2pI1zBco9zqZRb9-sLdrw"], ["LIMIT", 1]]
+  Rendered static_pages/root.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 38ms (Views: 34.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 12:01:30 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (15.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (32.9ms)
+Completed 200 OK in 75ms (Views: 34.7ms | ActiveRecord: 23.0ms)
+
+
+  [1m[35m (18.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 3]]
+  [1m[35m (26.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 4]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mBench Load (0.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "benches" WHERE "benches"."id" = $1[0m  [["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "benches" WHERE "benches"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "monte"], ["password_digest", "$2a$10$31YN5lzgI/TzxwB51Qg1rulCvHN/MeE16eq7ZHHZgOQB8jOAmD24O"], ["session_token", "87SGjgCoHEJBc2PO6oGZog"], ["created_at", "2018-07-09 16:02:36.414594"], ["updated_at", "2018-07-09 16:02:36.414594"]]
+  [1m[35m (15.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "alan"], ["password_digest", "$2a$10$MJ41e4UAX7nMDczw4b9GtufSqSp6vjJnSONYKPoaxo3a3O7HN2/QG"], ["session_token", "UNygT-6sLEPydD3s9MoWmg"], ["created_at", "2018-07-09 16:02:36.510854"], ["updated_at", "2018-07-09 16:02:36.510854"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "benches" ("description", "lat", "lng") VALUES ($1, $2, $3) RETURNING "id"[0m  [["description", "first bench"], ["lat", 40.76501], ["lng", -73.95847]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "benches" ("description", "lat", "lng") VALUES ($1, $2, $3) RETURNING "id"[0m  [["description", "second bench"], ["lat", 40.766694], ["lng", -73.972246]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 127.0.0.1 at 2018-07-09 12:20:04 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "H2pI1zBco9zqZRb9-sLdrw"], ["LIMIT", 1]]
+  Rendered static_pages/root.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 1453ms (Views: 1450.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 12:20:16 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (4.2ms)
+Completed 200 OK in 88ms (Views: 87.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 13:33:43 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "H2pI1zBco9zqZRb9-sLdrw"], ["LIMIT", 1]]
+  Rendered static_pages/root.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 1549ms (Views: 1545.8ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-09 13:33:57 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"monte", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "monte"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (17.8ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "FVPO-rvUswyQMHpvTWJGuw"], ["updated_at", "2018-07-09 17:33:57.977276"], ["id", 5]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (1.0ms)
+Completed 200 OK in 177ms (Views: 56.7ms | ActiveRecord: 23.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 13:35:51 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "FVPO-rvUswyQMHpvTWJGuw"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (48.9ms)
+Completed 200 OK in 75ms (Views: 73.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 13:38:49 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.5ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (3.0ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 13:39:04 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (2.6ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 13:39:11 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.4ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (2.5ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 13:41:04 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "FVPO-rvUswyQMHpvTWJGuw"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.7ms)
+  Rendered static_pages/root.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 159ms (Views: 158.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 13:41:59 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "FVPO-rvUswyQMHpvTWJGuw"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.0ms)
+  Rendered static_pages/root.html.erb within layouts/application (55.3ms)
+Completed 200 OK in 5392ms (Views: 5391.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 13:42:29 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "FVPO-rvUswyQMHpvTWJGuw"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.0ms)
+  Rendered static_pages/root.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 1169ms (Views: 1167.9ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-07-09 13:42:59 -0400
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"alan", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "alan"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["updated_at", "2018-07-09 17:42:59.941579"], ["id", 6]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.6ms)
+Completed 200 OK in 114ms (Views: 33.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:01:04 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.1ms)
+  Rendered static_pages/root.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 1218ms (Views: 1217.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:05:40 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (4.3ms)
+  Rendered static_pages/root.html.erb within layouts/application (47.4ms)
+Completed 200 OK in 1589ms (Views: 1585.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:06:02 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 934ms (Views: 933.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:06:37 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.5ms)
+  Rendered static_pages/root.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 913ms (Views: 912.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:08:12 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 1065ms (Views: 1064.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:08:53 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 870ms (Views: 869.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:09:56 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.5ms)
+  Rendered static_pages/root.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 877ms (Views: 876.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:11:11 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 986ms (Views: 985.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:11:12 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (19.2ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (28.5ms)
+Completed 200 OK in 47ms (Views: 27.7ms | ActiveRecord: 19.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:12:35 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.9ms)
+  Rendered static_pages/root.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 1215ms (Views: 1213.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:13:01 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.5ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (3.1ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:13:47 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.9ms)
+  Rendered static_pages/root.html.erb within layouts/application (22.3ms)
+Completed 200 OK in 1298ms (Views: 1297.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:14:10 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.9ms)
+  Rendered static_pages/root.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 1092ms (Views: 1091.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:14:11 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.5ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (3.4ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:14:39 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.5ms)
+  Rendered static_pages/root.html.erb within layouts/application (21.4ms)
+Completed 200 OK in 1425ms (Views: 1424.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:15:04 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.4ms)
+  Rendered static_pages/root.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 1145ms (Views: 1144.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:15:06 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (9.1ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:16:04 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.5ms)
+  Rendered static_pages/root.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 956ms (Views: 955.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:16:05 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (5.4ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:16:50 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.7ms)
+  Rendered static_pages/root.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 202ms (Views: 201.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:16:51 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (4.4ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:17:15 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 952ms (Views: 951.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:18:23 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.4ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (2.5ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:19:03 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.9ms)
+  Rendered static_pages/root.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 1236ms (Views: 1235.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:19:08 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.4ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (2.4ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:23:12 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 1268ms (Views: 1267.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:23:20 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.3ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (10.1ms)
+Completed 200 OK in 29ms (Views: 27.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:24:47 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.9ms)
+  Rendered static_pages/root.html.erb within layouts/application (33.2ms)
+Completed 200 OK in 1223ms (Views: 1222.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:24:49 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.4ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (4.9ms)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:25:51 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.2ms)
+  Rendered static_pages/root.html.erb within layouts/application (33.5ms)
+Completed 200 OK in 1330ms (Views: 1328.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:26:09 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (10.1ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:27:12 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 197ms (Views: 195.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:27:24 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (2.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (8.6ms)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:28:09 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 1557ms (Views: 1556.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:28:12 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (3.4ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:28:40 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.0ms)
+  Rendered static_pages/root.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 124ms (Views: 123.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:28:41 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (3.7ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:28:47 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:28:47 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (3.4ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (6.7ms)
+Completed 200 OK in 22ms (Views: 18.5ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:29:17 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "SjtCO58mhBDh-6qssF7eGA"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 65ms (Views: 64.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:29:18 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.1ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (7.4ms)
+Completed 200 OK in 43ms (Views: 41.3ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2018-07-09 14:30:00 -0400
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"username"=>"mashu", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "mashu"], ["password_digest", "$2a$10$4rkJctLpKgrvGBThTuqlyOVA0ZcTbt24uQwoQ39U.e1tiG4g8..yS"], ["session_token", "qvExigmqbBAuvS64AiX4Jg"], ["created_at", "2018-07-09 18:30:01.235288"], ["updated_at", "2018-07-09 18:30:01.235288"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["updated_at", "2018-07-09 18:30:01.240473"], ["id", 7]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.7ms)
+Completed 200 OK in 99ms (Views: 10.5ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:30:01 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.4ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (2.3ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 14:30:06 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (3.7ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:43:35 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.0ms)
+  Rendered static_pages/root.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 1404ms (Views: 1402.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:47:32 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.0ms)
+  Rendered static_pages/root.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 1321ms (Views: 1320.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:47:37 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 31ms (Views: 30.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:51:04 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.9ms)
+  Rendered static_pages/root.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 1208ms (Views: 1207.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:51:25 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.7ms)
+  Rendered static_pages/root.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:51:56 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 1024ms (Views: 1023.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:52:37 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.5ms)
+  Rendered static_pages/root.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 1053ms (Views: 1052.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:54:43 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.0ms)
+  Rendered static_pages/root.html.erb within layouts/application (32.9ms)
+Completed 200 OK in 1174ms (Views: 1173.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:55:14 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.2ms)
+  Rendered static_pages/root.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 133ms (Views: 132.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:57:17 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.2ms)
+  Rendered static_pages/root.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 1273ms (Views: 1272.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:57:58 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 177ms (Views: 175.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:58:23 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 1374ms (Views: 1372.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 14:59:38 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.7ms)
+  Rendered static_pages/root.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 1028ms (Views: 1027.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 15:00:19 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.9ms)
+  Rendered static_pages/root.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 146ms (Views: 144.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 15:04:10 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.0ms)
+  Rendered static_pages/root.html.erb within layouts/application (22.3ms)
+Completed 200 OK in 1407ms (Views: 1406.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 15:04:14 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.1ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (4.7ms)
+Completed 200 OK in 42ms (Views: 40.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 15:05:18 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.9ms)
+  Rendered static_pages/root.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 1175ms (Views: 1174.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 15:05:21 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.9ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (4.0ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 15:05:46 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.5ms)
+  Rendered static_pages/root.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 1025ms (Views: 1024.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 15:05:50 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (4.6ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 15:06:27 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.7ms)
+  Rendered static_pages/root.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 1104ms (Views: 1103.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 15:06:31 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.5ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (3.1ms)
+Completed 200 OK in 64ms (Views: 63.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 15:25:07 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (68.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (3.1ms)
+  Rendered static_pages/root.html.erb within layouts/application (117.2ms)
+Completed 200 OK in 1550ms (Views: 1479.9ms | ActiveRecord: 68.0ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 15:25:13 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (3.8ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 15:31:24 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 1564ms (Views: 1563.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 15:31:28 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (3.5ms)
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 15:32:54 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (27.3ms)
+Completed 200 OK in 1012ms (Views: 1011.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 15:32:58 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.5ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (3.1ms)
+Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 15:33:09 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 958ms (Views: 957.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 15:33:14 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.5ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (2.9ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 15:36:58 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 1327ms (Views: 1326.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 15:37:02 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (3.8ms)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 15:38:49 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 981ms (Views: 980.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 15:38:52 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (5.4ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 15:39:49 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 1083ms (Views: 1082.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 15:40:56 -0400
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 15:40:56 -0400
+Processing by StaticPagesController#root as HTML
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mBench Load (0.8ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (70.1ms)
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.8ms)
+
+
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.7ms)
+  Rendered static_pages/root.html.erb within layouts/application (466.0ms)
+Completed 200 OK in 1494ms (Views: 1321.5ms | ActiveRecord: 171.7ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 15:40:59 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (5.0ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (11.9ms)
+Completed 200 OK in 31ms (Views: 25.5ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 15:41:36 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 1053ms (Views: 1052.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 15:41:38 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (6.9ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (11.8ms)
+Completed 200 OK in 28ms (Views: 20.6ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 15:41:55 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.0ms)
+  Rendered static_pages/root.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 1139ms (Views: 1138.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 15:41:57 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (3.7ms)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 15:42:29 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.9ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (3.1ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:16:40 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (3.4ms)
+  Rendered static_pages/root.html.erb within layouts/application (42.6ms)
+Completed 200 OK in 1502ms (Views: 1499.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 16:16:43 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.2ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (8.7ms)
+Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:18:14 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 1469ms (Views: 1467.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 16:18:16 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (3.3ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:21:21 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (3.0ms)
+  Rendered static_pages/root.html.erb within layouts/application (63.8ms)
+Completed 200 OK in 2736ms (Views: 2728.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 16:21:25 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (1.1ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (4.3ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:28:43 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.1ms)
+  Rendered static_pages/root.html.erb within layouts/application (119.3ms)
+Completed 200 OK in 275ms (Views: 212.2ms | ActiveRecord: 62.3ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 16:28:45 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (70.7ms)
+Completed 200 OK in 100ms (Views: 44.4ms | ActiveRecord: 40.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:28:55 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (51.9ms)
+Completed 200 OK in 1424ms (Views: 1417.0ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:30:37 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.9ms)
+  Rendered static_pages/root.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 1182ms (Views: 1181.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 16:30:39 -0400
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `lat' for Bench(id: integer, description: string, lat: float, lng: float):Class
+Did you mean?  last:
+  app/models/bench.rb:6:in `in_bounds'
+  app/controllers/api/benches_controller.rb:4:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:31:28 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 355ms (Views: 354.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 16:31:29 -0400
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - undefined local variable or method `lat' for Bench(id: integer, description: string, lat: float, lng: float):Class
+Did you mean?  last:
+  app/models/bench.rb:6:in `in_bounds'
+  app/controllers/api/benches_controller.rb:4:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:32:03 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.5ms)
+  Rendered static_pages/root.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 16:32:04 -0400
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - undefined local variable or method `lat' for Bench(id: integer, description: string, lat: float, lng: float):Class
+Did you mean?  last:
+  app/models/bench.rb:6:in `in_bounds'
+  app/controllers/api/benches_controller.rb:4:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:32:55 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 89ms (Views: 83.1ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 16:32:56 -0400
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for Bench(id: integer, description: string, lat: float, lng: float):Class:
+  app/models/bench.rb:6:in `in_bounds'
+  app/controllers/api/benches_controller.rb:4:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:33:35 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.5ms)
+  Rendered static_pages/root.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 53ms (Views: 46.4ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 16:33:36 -0400
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for Bench(id: integer, description: string, lat: float, lng: float):Class:
+  app/models/bench.rb:6:in `in_bounds'
+  app/controllers/api/benches_controller.rb:4:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:35:02 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.7ms)
+  Rendered static_pages/root.html.erb within layouts/application (92.6ms)
+Completed 200 OK in 121ms (Views: 45.3ms | ActiveRecord: 74.9ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 16:35:03 -0400
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:8:in `in_bounds'
+  app/controllers/api/benches_controller.rb:4:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:37:26 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.1ms)
+  Rendered static_pages/root.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 16:37:27 -0400
+Processing by Api::BenchesController#index as JSON
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected '}', expecting ')':
+  app/models/bench.rb:6:in `'
+  app/controllers/api/benches_controller.rb:4:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:37:51 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.5ms)
+  Rendered static_pages/root.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 16:37:53 -0400
+Processing by Api::BenchesController#index as JSON
+  [1m[36mBench Load (0.5ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 9.8ms)
+
+
+
+NameError - undefined local variable or method `lat' for Bench(id: integer, description: string, lat: float, lng: float):Class
+Did you mean?  last:
+  app/models/bench.rb:6:in `block in in_bounds'
+  app/models/bench.rb:6:in `in_bounds'
+  app/controllers/api/benches_controller.rb:4:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:49:23 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.0ms)
+  Rendered static_pages/root.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 169ms (Views: 167.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 16:49:24 -0400
+Processing by Api::BenchesController#index as JSON
+  [1m[36mBench Load (0.5ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.5ms)
+
+
+
+NameError - undefined local variable or method `lat' for Bench(id: integer, description: string, lat: float, lng: float):Class
+Did you mean?  last:
+  app/models/bench.rb:6:in `block in in_bounds'
+  app/models/bench.rb:6:in `in_bounds'
+  app/controllers/api/benches_controller.rb:4:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:57:12 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.7ms)
+  Rendered static_pages/root.html.erb within layouts/application (49.7ms)
+Completed 200 OK in 185ms (Views: 178.2ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 16:57:13 -0400
+Processing by Api::BenchesController#index as JSON
+  [1m[36mBench Load (0.6ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.6ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:6:in `block in in_bounds'
+  app/models/bench.rb:6:in `in_bounds'
+  app/controllers/api/benches_controller.rb:4:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 16:58:23 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 59ms (Views: 51.9ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 16:58:24 -0400
+Processing by Api::BenchesController#index as JSON
+  [1m[36mBench Load (0.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.7ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/models/bench.rb:6:in `block in in_bounds'
+  app/models/bench.rb:6:in `in_bounds'
+  app/controllers/api/benches_controller.rb:4:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 17:00:08 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (1.1ms)
+  Rendered static_pages/root.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 55ms (Views: 47.9ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 17:00:09 -0400
+Processing by Api::BenchesController#index as JSON
+  [1m[36mBench Load (0.5ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.5ms)
+
+
+
+NoMethodError - undefined method `northeast' for nil:NilClass:
+  app/models/bench.rb:6:in `block in in_bounds'
+  app/models/bench.rb:6:in `in_bounds'
+  app/controllers/api/benches_controller.rb:4:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 17:01:15 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.7ms)
+  Rendered static_pages/root.html.erb within layouts/application (27.4ms)
+Completed 200 OK in 191ms (Views: 190.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 17:01:17 -0400
+Processing by Api::BenchesController#index as JSON
+  [1m[36mBench Load (1.3ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.3ms)
+
+
+
+NoMethodError - undefined method `northeast' for nil:NilClass:
+  app/models/bench.rb:6:in `block in in_bounds'
+  app/models/bench.rb:6:in `in_bounds'
+  app/controllers/api/benches_controller.rb:4:in `index'
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 17:01:22 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.9ms)
+  Rendered static_pages/root.html.erb within layouts/application (44.5ms)
+Completed 200 OK in 75ms (Views: 51.7ms | ActiveRecord: 22.8ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 17:01:23 -0400
+Processing by Api::BenchesController#index as JSON
+Started GET "/" for 127.0.0.1 at 2018-07-09 17:05:04 -0400
+  [1m[35m (31.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (16.2ms)
+  Rendered static_pages/root.html.erb within layouts/application (98.3ms)
+Completed 200 OK in 2919ms (Views: 2910.2ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 17:05:09 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.9ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (13.8ms)
+Completed 200 OK in 7041ms (Views: 36.6ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-09 17:05:27 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.6ms)
+  Rendered static_pages/root.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 17:05:28 -0400
+Processing by Api::BenchesController#index as JSON
+Started GET "/" for 127.0.0.1 at 2018-07-09 17:05:45 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering api/benches/index.json.jbuilder
+  Rendering static_pages/root.html.erb within layouts/application
+  [1m[36mBench Load (1.9ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (8.3ms)
+Completed 200 OK in 16659ms (Views: 30.8ms | ActiveRecord: 1.9ms)
+
+
+  [1m[36mUser Load (3.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "PSnz5JT2bjFo87IjuRdc_g"], ["LIMIT", 1]]
+  Rendered api/users/_user.json.jbuilder (0.8ms)
+  Rendered static_pages/root.html.erb within layouts/application (43.6ms)
+Completed 200 OK in 93ms (Views: 70.7ms | ActiveRecord: 21.8ms)
+
+
+Started GET "/api/benches" for 127.0.0.1 at 2018-07-09 17:05:46 -0400
+Processing by Api::BenchesController#index as JSON
+  Rendering api/benches/index.json.jbuilder
+  [1m[36mBench Load (0.7ms)[0m  [1m[34mSELECT "benches".* FROM "benches"[0m
+  Rendered api/benches/index.json.jbuilder (20.3ms)
+Completed 200 OK in 44ms (Views: 29.4ms | ActiveRecord: 9.5ms)
+
+
